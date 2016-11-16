@@ -1,1 +1,3 @@
-export default (state, action) => [];
+import data from './LibraryList.json';
+
+export default () => data;
